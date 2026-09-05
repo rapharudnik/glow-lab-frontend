@@ -12,6 +12,6 @@
 }
 
 .not-found__link {
-  color: #333;
+  color: var(--color-pink-dark);
   text-decoration: underline;
 }

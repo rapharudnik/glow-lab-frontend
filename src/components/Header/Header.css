@@ -5,11 +5,13 @@
   padding: 20px 32px;
   flex-wrap: wrap;
   gap: 12px;
+  background-color: var(--color-pink-light);
 }
 
 .header__logo {
   font-weight: 700;
   font-size: 20px;
+  color: var(--color-black);
 }
 
 @media (max-width: 480px) {
