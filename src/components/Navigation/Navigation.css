@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  gap: 24px;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: var(--color-black);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navigation__link:hover {
+  color: var(--color-pink-dark);
+}
+
+.navigation__link_active {
+  font-weight: 700;
+  color: var(--color-pink-dark);
+  border-bottom: 2px solid var(--color-pink-dark);
+}
