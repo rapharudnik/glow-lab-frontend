@@ -2,7 +2,7 @@
 
 Projeto final do bootcamp de desenvolvimento web da TripleTen — uma aplicação front-end que une minha experiência como esteticista com minha atuação como criadora de conteúdo, trazendo inspirações visuais de beleza e autocuidado.
 
-🔗 **Acesse o projeto:** [fabulous-custard-ed0580.netlify.app](https://fabulous-custard-ed0580.netlify.app)
+🔗 **Acesse o projeto:** [glow-lab.netlify.app](https://glow-lab.netlify.app)
 
 ## Sobre o projeto
 
