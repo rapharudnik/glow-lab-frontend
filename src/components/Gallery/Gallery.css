@@ -1,0 +1,150 @@
+.gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 60px;
+}
+
+.gallery__title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.gallery__search-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.gallery__search-input {
+  flex: 1;
+  min-width: 200px;
+  padding: 12px 20px;
+  border: 2px solid var(--color-pink-light);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 16px;
+  color: var(--color-black);
+}
+
+.gallery__search-input:focus {
+  outline: none;
+  border-color: var(--color-pink-dark);
+}
+
+.gallery__search-button,
+.gallery__search-clear {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+.gallery__search-button {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.gallery__search-button:hover {
+  background-color: var(--color-pink);
+  color: var(--color-black);
+}
+
+.gallery__search-clear {
+  background-color: transparent;
+  color: var(--color-pink-dark);
+  border: 2px solid var(--color-pink-dark);
+}
+
+.gallery__search-clear:hover {
+  background-color: var(--color-pink-light);
+}
+
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.gallery__message {
+  text-align: center;
+  font-size: 18px;
+  padding: 40px 0;
+}
+
+.gallery__message_error {
+  color: #c0392b;
+}
+
+.gallery__categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.gallery__category {
+  background-color: var(--color-pink-light);
+  color: var(--color-black);
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s;
+}
+
+.gallery__category:hover {
+  background-color: var(--color-pink);
+}
+
+.gallery__category_active {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border-color: var(--color-black);
+}
+
+.gallery__show-more {
+  display: block;
+  margin: 32px auto 0;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+.gallery__show-more:hover {
+  background-color: var(--color-pink);
+  color: var(--color-black);
+}
+
+@media screen and (max-width: 900px) {
+  .gallery__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .gallery__title {
+    font-size: 36px;
+  }
+
+  .gallery__grid {
+    grid-template-columns: 1fr;
+  }
+}

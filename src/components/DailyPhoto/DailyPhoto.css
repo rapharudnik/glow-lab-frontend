@@ -1,0 +1,15 @@
+.daily-photo__subtitle {
+  color: var(--color-gray);
+  margin-bottom: 32px;
+  font-size: 16px;
+}
+
+.daily-photo__card {
+  max-width: 360px;
+  margin: 0 auto 24px;
+}
+
+.daily-photo__refresh {
+  display: block;
+  margin: 0 auto;
+}
